@@ -1,0 +1,4 @@
+HCT116_pseudobulk_mean_AllPertsByExpressedGenes.tsv
+HEK293T_pseudobulk_mean_AllPertsByExpressedGenes.tsv
+HEK293T_pseudobulk_sum_AllPertsByExpressedGenes.cos_sim.Percent1
+HEK293T_pseudobulk_sum_AllPertsByExpressedGenes.tsv.Percent1

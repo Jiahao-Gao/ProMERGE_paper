@@ -1,0 +1,23 @@
+# Config file for automatic testing at travis-ci.org
+
+language: python
+dist: focal
+python:
+  - "3.11"
+  - "3.10"
+  - "3.9"
+  - "3.8"
+
+# Command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
+install:
+    - pip install -r requirements.txt
+    - pip install coveralls
+    - pip install pytest
+
+# Command to run tests, e.g. python setup.py test
+script:
+    - coverage run --source cellmaps_coembedding -m pytest
+
+after_success: coveralls
+
+

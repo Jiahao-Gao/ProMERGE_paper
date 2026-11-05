@@ -1,0 +1,11 @@
+Sphinx>=1.8.1
+sphinx-rtd-theme
+sphinx-copybutton
+cellmaps_utils
+phenograph
+numpy
+torch
+pandas
+matplotlib
+dill
+tqdm
